@@ -31,32 +31,32 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": "5274001626:AAEeVz65nnKjv4-n9UfIGlaa6hLie5dDwUQ"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "14091097"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "c8faea969d062792d7e7121792b7f801"
       },    
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "2088106582"
+         "value": "1224143544"
      },
 
       "STRING_SESSION": {
          "description": "Fill with telethon string session.",
          "required": true,
-         "value": "" 
+         "value": 1BVtsOK0Bu5SBfX9TLjuDO-EdoR_XoW3JtlaMcovD7Kx1TC88xWHxanRGaDm5LterxE3TNiAagfWfgyk8bEUYA26ZH8NF7SeGxrunARZUCB3KIExY9HJAW_sxyN93u6IwLUT6pbFZrS9-H6HS4_V8FbSTfWYA1bQdkp44dP_Muhr95gdLzP7nUZLUcRq9m_k1QSOFhH6tNRGxLwl__8TMkzBhTNjtVOvTi5mAS1KK6Wo_FjK8dLvhBChWHsdt9Cw_m3OeNW425gMP2zjGFcDwjQ5tqjobvVeA4tHvF6bqoEqDnSww6JyuNQKnQsmdyZyo0REJFWARz9NnLz5c3f4lff7PGQJElOA="" 
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
-        "value": ""
+        "value": "e06efe80-f7a9-4363-8fcd-be9fc2de10ae"
       },
       "HEROKU_APP_NAME": {
         "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
