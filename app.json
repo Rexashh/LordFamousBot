@@ -1,5 +1,5 @@
 {
-      "name": "Emiko Robot",
+      "name": "Xa Robot",
       "description": "A Powerful  Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -9,8 +9,8 @@
          "naorobot"
       ],
     
-   "logo":    "https://telegra.ph/file/35e56ba7eace7332356ad.jpg",  
-   "repository": "https://github.com/kennedy-ex/https://github.com/kennedy-ex/EmikoRobot",
+   "logo":    "https://telegra.ph/file/6b018e375f2ab2034dcc1.jpg",  
+   "repository": "https://github.com/kennedy-ex/https://github.com/kennedy-ex/xarobot",
    "addons": [
           {
          "options": {
