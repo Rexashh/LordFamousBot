@@ -82,17 +82,14 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/3a954fd20f864a9993374.jpg)
-────────────────────────
-× *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
+✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/b113f85d8d3e8e0570431.jpg)
 ────────────────────────
 ✪ Hit /help to see my available commands.
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About Cesaa Robot", callback_data="emiko_"),
+        InlineKeyboardButton(text="About Naya Robot", callback_data="emiko_"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
@@ -102,7 +99,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Cesaa To Your Group ➗", url="t.me/CesaaLiteBot?startgroup=new"),
+            text="➗ Add Naya To Your Group ➗", url="t.me/NayaXMusicBot?startgroup=new"),
     ],
 ]
 
@@ -360,14 +357,14 @@ def emiko_about_callback(update, context):
     query = update.callback_query
     if query.data == "emiko_":
         query.message.edit_text(
-            text="๏ I'm *Cesaa*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *Naya*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_Emiko's licensed under the GNU General Public License v3.0_"
+            "\n\n_Naya's licensed under the GNU General Public License v3.0_"
             "\n\n Click on button bellow to get basic help for EmikoRobot.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -435,14 +432,14 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_support":
         query.message.edit_text(
-            text="*๏ Cesaa support chats*"
+            text="*๏ Naya support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on Cesaa.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/CesaaSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/ChameleonsDiary"),
+                    InlineKeyboardButton(text="Support", url="t.me/buknjgoan"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/ohgtumks"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -455,7 +452,7 @@ def emiko_about_callback(update, context):
 
     elif query.data == "emiko_credit":
         query.message.edit_text(
-            text=f"๏ Credis for Cesaa\n"
+            text=f"๏ Credis for Naya\n"
             "\nHere Developers Making And Give Inspiration For Made The EmikoRobot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
